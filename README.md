@@ -2,9 +2,9 @@
 Android客户端使用EVE国服ESI登录demo
 ## Demo说明
 使用 RxJava+Retrofit做网络请求，主要登录实现请看  
-- [MainActivity](app\src\main\java\com\zhkrb\eve_oauth2\MainActivity.java)
-- [AdvanceWebClient](app\src\main\java\com\zhkrb\eve_oauth2\AdvanceWebClient.java)
-- [HttpUtil](app\src\main\java\com\zhkrb\eve_oauth2\netowrk\retrofit\HttpUtil.java)
+- [MainActivity](app/src/main/java/com/zhkrb/eve_oauth2/MainActivity.java)
+- [AdvanceWebClient](app/src/main/java/com/zhkrb/eve_oauth2/AdvanceWebClient.java)
+- [HttpUtil](app/src/main/java/com/zhkrb/eve_oauth2/netowrk/retrofit/HttpUtil.java)
 ## 登录流程
 ### 配置
 https://esi.evepc.163.com/latest/swagger.json  
