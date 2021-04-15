@@ -106,7 +106,7 @@ https://login.evepc.163.com/v2/oauth/authorize?response_type=token&client_id=bc9
 After normal login, you will enter the person selection page and permission confirmation page. We need to process the subsequent token acquisition here.
 When you click permission or person confirmation, you will request` https://login.evepc.163.com/v2/oauth/authorize `This web address, which is the previous splicing login address, but has one more character selection parameter. If the request passes normally, a 304 response will be returned. The destination address is` https://esi.evepc.163.com/ui/oauth2-redirect.html `, which is the callback address in the previous parameter. The 304 jump URL is followed by the required token.
 
-So we need to get the 304 response, extract the parameter 'location' from its response header, and then regularize the token required. See the format below
+So we need to get the 304 response, extract the parameter `location` from its response header, and then regularize the token required. See the format below
 
 ```
 https://esi.evepc.163.com/ui/oauth2-redirect.html#access_ token={token}&expires_ in=1199&state=RnJpIEFwciAyNCAyMDIwIDIzOjQxOjAxIEdNVCswODAwICjkuK3lm73moIflh4bml7bpl7Qp
