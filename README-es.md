@@ -96,8 +96,8 @@ https://login.evepc.163.com/v2/oauth/authorize?response_type=token&client_id=bc9
 7. realm: application name, which is ESI
 8. device_id: The device id just obtained
 
--Call the in application browser directly without header, no matter WebView or anything, because you need to automatically obtain the following token, so you need to ensure that the browser can control itself, and it is convenient to intercept parameters and manage cookies.
--Pay attention to ensure that the cookie is empty every time you request. If you have logged in the cookie with Netease, you will report an error.
+- Call the in application browser directly without header, no matter WebView or anything, because you need to automatically obtain the following token, so you need to ensure that the browser can control itself, and it is convenient to intercept parameters and manage cookies.
+- Pay attention to ensure that the cookie is empty every time you request. If you have logged in the cookie with Netease, you will report an error.
 
 
 
